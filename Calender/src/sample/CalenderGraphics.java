@@ -30,7 +30,6 @@ import java.util.HashMap;
 import java.util.Objects;
 
 public class CalenderGraphics {
-    MyCalendar setting;
     CalendarCall[] button_day = new CalendarCall[42];
 
     MyDateInfo[] myDateInfo = new MyDateInfo[42];
