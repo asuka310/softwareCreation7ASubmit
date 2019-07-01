@@ -1,1 +1,2 @@
 # softwareCreation7ASubmit
+- ソフトウェア制作7A班のコード提出用のpublicリポジトリ
