@@ -1,0 +1,18 @@
+.combo-box-base {
+  -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, white;
+  -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+  -fx-background-radius: 3px, 3px, 2px, 1px;
+  -fx-border-color: #5b92e5;
+}
+.combo-box .list-cell {
+  -fx-border-color: white;
+}
+.combo-box .combo-box-popup .list-view{
+    -fx-border-color: #5b92e5;
+    -fx-border-insets: 0 0 0 0;
+}
+.combo-box .arrow-button {
+  -fx-background-color: white;
+  -fx-border-color: white;
+  -fx-size: 5;
+}

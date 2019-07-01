@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="360.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.DayPlanDetailViewController">
+   <children>
+      <Button layoutX="194.0" layoutY="328.0" mnemonicParsing="false" onAction="#closeWindow" stylesheets="@../cssFolder/buttonDesign03.css" text="閉じる" />
+      <Label fx:id="dateLabelID" layoutX="43.0" layoutY="60.0" text="日付" />
+      <Label fx:id="timeLabelID" layoutX="43.0" layoutY="84.0" text="時間" />
+      <Label layoutX="43.0" layoutY="119.0" text="場所" />
+      <Label layoutX="43.0" layoutY="149.0" prefHeight="17.0" prefWidth="26.0" text="詳細" />
+      <Label fx:id="titleLabelID" layoutX="37.0" layoutY="21.0" prefHeight="25.0" text="タイトル">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="placeLabelID" layoutX="95.0" layoutY="119.0" prefHeight="17.0" text="場所" />
+      <Label fx:id="detailLabelID" alignment="TOP_LEFT" contentDisplay="TOP" layoutX="43.0" layoutY="171.0" prefHeight="112.0" prefWidth="280.0" textOverrun="WORD_ELLIPSIS" wrapText="true" />
+      <Button fx:id="delete" layoutX="95.0" layoutY="328.0" mnemonicParsing="false" onAction="#checkdelete" stylesheets="@../cssFolder/buttonDesign04.css" text="削除" />
+      <Line endX="300.0" layoutX="30.0" layoutY="47.0" />
+      <Line endX="300.0" layoutX="30.0" layoutY="110.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chat.ChatSelectorController">
+   <children>
+      <ListView fx:id="user_selector_listID" layoutX="61.0" layoutY="52.0" prefHeight="240.0" prefWidth="203.0" stylesheets="@../cssFolder/listViewDesign01.css" />
+      <Button fx:id="start_chat_buttonID" layoutX="422.0" layoutY="265.0" mnemonicParsing="false" stylesheets="@../cssFolder/buttonDesign03.css" text="チャットを始める" />
+      <Button fx:id="close_buttonID" layoutX="325.0" layoutY="265.0" mnemonicParsing="false" onAction="#closeButton" stylesheets="@../cssFolder/buttonDesign04.css" text="閉じる" />
+   </children>
+</AnchorPane>

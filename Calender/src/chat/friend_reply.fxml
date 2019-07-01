@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<fx:root prefWidth="200.0" style="-fx-background-color: white;" type="AnchorPane" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="f_name_initialID" layoutX="2.0" layoutY="7.0" prefHeight="20.0" prefWidth="20.0" style="-fx-border-width: 0.5; -fx-border-color: black; -fx-background-color: white; -fx-border-radius: 10; -fx-alignment: center;" text="N" />
+      <Label fx:id="friend_nameID" layoutX="23.0" layoutY="5.0" text="frend_name" AnchorPane.leftAnchor="23.0" AnchorPane.topAnchor="5.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label fx:id="friend_messageID" layoutX="24.0" layoutY="18.0" maxWidth="150.0" style="-fx-border-insets: 0.5; -fx-border-color: black; -fx-border-radius: 7; -fx-border-width: 0.5;" text="フレンドの送信内容" wrapText="true" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="24.0" AnchorPane.topAnchor="18.0" />
+   </children>
+</fx:root>

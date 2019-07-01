@@ -1,0 +1,15 @@
+.text-area {
+  -fx-background-color: white;
+  -fx-border-color: white;
+}
+.text-area .content {
+  -fx-border-color: #a9a9a9;
+  -fx-faint-color: -fx-control-inner-background;
+  -fx-faint-focus-color: -fx-control-inner-background;
+  -fx-text-box-border: -fx-control-inner-background;
+}
+.text-area:focused .content {
+  -fx-background-color:  white;
+  -fx-border-color: #33691e;
+  -fx-effect: none;
+}

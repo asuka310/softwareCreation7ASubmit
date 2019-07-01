@@ -1,0 +1,47 @@
+早稲田大学グローバルソフトウェアエンジニアリング研究所所長、
+早稲田大学理工学術院基幹理工学部情報理工学科教授、
+国立情報学研究所客員教授。
+株式会社システム情報 取締役（監査等委員）。
+株式会社エクスモーション 社外取締役。
+1976年生まれ。
+99年早稲田大学理工学部情報学科卒業、
+01年同大学院理工学研究科情報科学専攻修士前期課程修了、
+03年博士後期課程修了、博士（情報科学）。
+02年同大学助手、04年国立情報学研究所助手。
+05年総合研究大学院大学助手。
+07年同研究所助教、および、同大学助教。
+08年早稲田大学理工学術院准教授、および、国立情報学研究所客員准教授。
+15年Ecole Polytechnique de Montreal客員滞在。
+16年早稲田大学教授、国立情報学研究所客員教授。
+再利用と品質保証を中心としたソフトウェア工学の研究と教育に従事。
+他の活動にACM-ICPC 2014 Asia Regional Tokyo Contest Director、
+IEEE CS Japan Chapter Chair、SEMAT Japan Chapter Chair、
+SamurAI Coding 2014-15/2015-16 Director、
+ISO/IEC/JTC1/SC7/WG20 Convenor、
+日科技連SQiP研究会運営小委員会副委員長、
+同研究会演習コース主査、
+IJSEKE、IEICE Transactions、
+コンピュータソフトウェア誌、品質誌 各論文誌編集委員、
+大学入試センター試験作問委員など。
+04年ソフトウェア科学会高橋奨励賞、
+06年情報処理学会SES2006優秀論文賞、
+08年情報処理学会山下記念研究賞、
+08年船井情報科学奨励賞、
+08年日経品質管理文献賞（対象文献執筆分担者）、
+09年テスト技術者振興協会善吾賞、
+FIT2009船井ベストペーパー賞、
+14年IWESEP 2014 Best Poster Award、
+16年 APSCIT Computer Research Contribution Award、
+17年 日本工学教育協会 工学教育賞、
+17年 日本国際賞 後席にて天皇皇后両陛下へ研究紹介。
+Int. J. of Agile and Extreme Software Development (IJAESD) Editor-in-Chief。
+情報処理学会シニア会員。 ICST 2017 Co-Program Chair,
+SEKE2010-2017 Asia Liaison,
+PPAP 2016-2017 Organizer,
+CSEE&T 2017 PC Co-Chair,
+DEPEND 2016-2017 Steering Committee Member,
+FASSI 2016-2017 Steering Committee Member,
+VALID 2016-2017 Steering Committee Member,
+APSEC 2018 PC Co-Chair, COMPSAC 2018 Local Chair,
+IEEE Computer Society Membership at Large for the Professional and Educational Activities Board (PEAB),
+IEEE Computer Society SWEBOK Steering Group Member.
