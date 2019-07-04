@@ -72,7 +72,7 @@ public class ChatServerThread extends Thread {
         try {
             int PORT2 = 3002;
             InetAddress addr = InetAddress.getByName(ipadd); //IPアドレスの変換
-            Socket talk = new Socket(addr, 3002);
+            Socket talk = new Socket(addr, PORT2);
             ChatView cv = new ChatView(friend, username, socket, talk);
             cv.showingProperty().addListener((observable, oldValue, newValue) -> {
                 if (oldValue == true && newValue == false) {

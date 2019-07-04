@@ -33,14 +33,14 @@ public class ServerDatabase {
         loadFileDataMap();
         loadUserProfileMap();
         loadAllEventMap();
-        ServerGUIBase.getController().reloadUserNamePasswordTable();
-        ServerGUIBase.getController().reloadFileDataTable();
+        ServerGUIBase.getInstance().getController().reloadUserNamePasswordTable();
+        ServerGUIBase.getInstance().getController().reloadFileDataTable();
         // TODO eventリストの読み込み
     }
 
     public void registerConnectingUser(String host_name, String ip){
         connectingUserMap.put(host_name, new UserData(host_name, ip)); // データの登録
-        ServerGUIBase.getController().reloadConnectingUserTable();//接続中ユーザのテーブルの読み直し
+        ServerGUIBase.getInstance().getController().reloadConnectingUserTable();//接続中ユーザのテーブルの読み直し
         System.out.println("register connecting user :: " + host_name + " : " + ip);
     }
 
@@ -48,14 +48,14 @@ public class ServerDatabase {
         UserData ud = connectingUserMap.remove(host);
         if(loginUserMap.containsKey(host))
             loginUserMap.remove(host);
-        ServerGUIBase.getController().reloadConnectingUserTable();//接続中ユーザのテーブルの読み直し
+        ServerGUIBase.getInstance().getController().reloadConnectingUserTable();//接続中ユーザのテーブルの読み直し
         System.out.println("lost connection with user :: " + ud.host_name + " : " + ud.ip);
     }
 
     public void registerUserPassword(String user, String pass){
         passwordMap.put(user, pass); // パスワードの登録
         savePasswordMap();
-        ServerGUIBase.getController().reloadUserNamePasswordTable();
+        ServerGUIBase.getInstance().getController().reloadUserNamePasswordTable();
         System.out.println(passwordMap);
     }
 
@@ -77,7 +77,7 @@ public class ServerDatabase {
             fileDataMap.put(title, new FileData(title, filePath_string, Integer.parseInt(size)));
             System.out.println("データ登録完了 :: title " + title + " : path " + filePath.toString() + " : size " + size);
             saveFileDataMap(); // マップの保存
-            ServerGUIBase.getController().reloadFileDataTable();
+            ServerGUIBase.getInstance().getController().reloadFileDataTable();
         }catch(IOException e){
             e.printStackTrace(); //TODO 例外発生時はユーザに通知
         }
@@ -302,13 +302,13 @@ public class ServerDatabase {
 
     public void addLoginUser(String user, String hostname){
         connectingUserMap.get(hostname).setLoginUser(user, true);
-        ServerGUIBase.getController().reloadConnectingUserTable();
+        ServerGUIBase.getInstance().getController().reloadConnectingUserTable();
         loginUserMap.put(hostname, user);
     }
 
     public void removeLoginUser(String user, String hostname){
         connectingUserMap.get(hostname).setLoginUser("Non", false);
-        ServerGUIBase.getController().reloadConnectingUserTable();
+        ServerGUIBase.getInstance().getController().reloadConnectingUserTable();
         loginUserMap.remove(hostname, user);
     }
 

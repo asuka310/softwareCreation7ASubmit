@@ -23,7 +23,7 @@ public class ServerGUI extends Application {
         primaryStage.setTitle("Server GUI");
         primaryStage.setScene(new Scene(root, 835, 610));
 
-        ServerGUIBase.setLoader(fxmlLoader); // ローダの記憶
+        ServerGUIBase.getInstance().setLoader(fxmlLoader); // ローダの記憶
 
         ServerDatabase.getInstance().setup(); // 保存済みのmap類の読み出し
 
